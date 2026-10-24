@@ -1,0 +1,5 @@
+stock.db
+
+_pycache_/
+
+*.pyc
