@@ -19,9 +19,7 @@ def truncate_by_width(text, max_width):
         current_width += char_width
     return "".join(result)
 
-conn = sqlite3.connect(
-    r"C:\Users\kkame\Documents\SQLite\kabu_table\stock.db"
-)
+conn = sqlite3.connect("stock.db")
 
 cur = conn.cursor()
 
